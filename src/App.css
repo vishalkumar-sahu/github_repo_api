@@ -1,0 +1,74 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    /* box-sizing: border-box !important; */
+    /* width: 100% !important; */
+    /* height: 100% !important; */
+}
+
+body{
+    display: grid !important;
+    grid-template-rows: 10% 85% 5% !important;
+    margin-bottom: 10px !important;
+    min-height: 930px;
+}
+
+main{
+    display: grid !important;
+    grid-template-columns: 20% 60% 20% !important;
+}
+
+.repo{
+    border: 1px solid black !important;
+    font-size: 18px !important;
+    padding: 25px !important;
+}
+
+.star{
+    font-size: 20px !important;
+}
+
+.description{
+    padding-bottom: 10px !important;
+}
+
+.gap{
+    margin-top: 15px !important;
+    margin-bottom: 20px !important;
+}
+
+header{ 
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.pagenumber{
+    display: flex !important;
+    align-items:center !important;
+    justify-content: center !important;
+}
+
+.repo_link{
+    color: inherit; 
+    text-decoration: inherit; 
+}
+
+.repo_link, .repo_link:hover, .repo_link:focus, .repo_link:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.pageno{
+    text-decoration: none;
+}
+
+#pagesize{
+    width: 50px;
+}
+
+.page{
+    justify-content: end;
+    align-items: flex-end;
+    margin-left: 100px;
+}
