@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Getting Started with Github_repo_api
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Develop a single page application using Angular/React/Vue to display the list of GitHub  repositories. You can use the below sample API to get the repo list 
 
-## Available Scripts
+## Repo data 
+Open [https://api.github.com/search/repositories?q=language:Javascript&sort=stars&order=desc &page=1&per_page=10 ](https://api.github.com/search/repositories?q=language:Javascript&sort=stars&order=desc &page=1&per_page=10 ) tp see dataset.
 
-In the project directory, you can run:
+### Show basic details of the repo like:
 
-### `npm start`
+1) Repo name: (name/full_name) 
+2) Description: (description) 
+3) Owner name: (owner.login) 
+4) Stars count: (stargazers_count) 
+5) Number of forks: (forks_count) 
+6) Language: (language) 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Functionalities to be implemented 
+1) On click of the card/item the user should be redirected to the GitHub repository  page 
+2) Pagination - User should be able to view the repo list in a paginated manner, List  of options to be implemented 
+ 1) Page number 
+ 2) Page size 
+ 3) Next page 
+ 4) Previous page 
+3) Search based on language and name 
+4) Sorting (Ascending and Descending): 
+1) Sort by stars 
+2) Sort by Name 
